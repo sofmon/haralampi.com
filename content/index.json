@@ -1,0 +1,76 @@
+{
+  "t": "",
+  "r": [
+    {
+      "k": "col-left",
+      "c": [
+        "col-left"
+      ]
+    },
+    {
+      "k": "col-right",
+      "c": [
+        "col-right"
+      ]
+    }
+  ],
+  "e": [
+    {
+      "k": "col-left-h",
+      "t": "Latest gibberish"
+    },
+    {
+      "k": "col-left-h1529261367078",
+      "t": "Jun 2018"
+    },
+    {
+      "k": "col-left-p",
+      "t": "\u003e Jun 2018\n\n- **Wedit is out** - I've release the [wedit](https://wedit.io) tool. Never perfect, but ready for action. It is hosted on [GitHub](https://github.com/sofmon/wedit) and is under MIT license.\n"
+    },
+    {
+      "k": "col-left-p1529261367078",
+      "t": "- Wedit is out - I've release the `wedit` tool. Never perfect but ready for action. [- read more -](/posts/2018-06-17/1/)\n"
+    },
+    {
+      "k": "col-right-h",
+      "t": "Jun 2018"
+    },
+    {
+      "k": "col-right-h1529248057357",
+      "t": "Current engagements"
+    },
+    {
+      "k": "col-right-h1529248312947",
+      "t": "Contact"
+    },
+    {
+      "k": "col-right-h1529263116216",
+      "t": "-- some header --"
+    },
+    {
+      "k": "col-right-p",
+      "t": "humm"
+    },
+    {
+      "k": "col-right-p1529248057357",
+      "t": "#### Contributor to [Sofmon](https://www.sofmon.com)\n\nSofmon is an attempt to build set of tools that replace unnecessary dependency on obscure services.\n\nTools to be used by your own judgment and nobody else’s.\n\n---\n#### CTO @ [Peaks](https://www.peaks.com)\n\nEveryone can invest with Peaks. All you need is a bank account. Okay, and a little patience.\n"
+    },
+    {
+      "k": "col-right-p1529248312947",
+      "t": "You can contact me on [LinkedIn](https://linkedin.com/in/haralampi/) or directly through [email](mailto:work@haralampi.com)\n"
+    },
+    {
+      "k": "col-right-p1529263116216",
+      "t": "-- some paragraph --"
+    },
+    {
+      "k": "first-header",
+      "t": "creative technologist \u0026 technical manager"
+    },
+    {
+      "k": "second-header",
+      "t": "HARALAMPi's GiBbERiSh"
+    }
+  ],
+  "i": []
+}

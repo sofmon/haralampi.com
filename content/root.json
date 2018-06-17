@@ -1,0 +1,31 @@
+{
+  "t": "",
+  "r": [
+    {
+      "k": "!col-right",
+      "c": [
+        "!col-right",
+        "1529263508577"
+      ]
+    }
+  ],
+  "e": [
+    {
+      "k": "!col-right-h",
+      "t": "About\n"
+    },
+    {
+      "k": "!col-right-h1529263508577",
+      "t": "Current engagements"
+    },
+    {
+      "k": "!col-right-p",
+      "t": "I am Haralampi Staykov and I am a technologist.\n\nThis website contains thought that are offerings to the one who whats to read them.\n\nI don't claim to know better, nor I want to convince you into anything. The world is as it is and I wander in it the same way you do.\n\nThoughts can light a path, taking it or choosing another is how we walk our way.\n\nYou can contact me on [LinkedIn](https://linkedin.com/in/haralampi/) or send emails to [work@haralampi.com](mailto:work@haralampi.com)."
+    },
+    {
+      "k": "!col-right-p1529263508577",
+      "t": "#### Contributor to [Sofmon](https://www.sofmon.com)\n\nSofmon is an attempt to build set of tools that replace unnecessary dependency on obscure services.\n\nTools to be used by your own judgment and nobody else’s.\n\n---\n#### CTO @ [Peaks](https://www.peaks.com)\n\nEveryone can invest with Peaks. All you need is a bank account. Okay, and a little patience."
+    }
+  ],
+  "i": []
+}
