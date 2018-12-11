@@ -1,0 +1,60 @@
+html body {
+    background-color: #000000;
+    color: #AAAAAA;
+    font-family: "Courier New", Courier, monospace;
+    overflow-x: hidden;
+    font-weight: 100;
+    font-size: 18px;
+  }
+
+  a {
+    color: #FF6666;
+  }
+
+  h1 {
+    color: #666666;
+    font-weight: 100;
+    font-size: 30px;
+  }
+
+  h2 {
+    color: #FFFFFF;
+    font-weight: 100;
+  }
+
+  header {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  footer {
+    text-align: center;
+    margin: 100px;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 1500px;
+  }
+
+  .main {
+    float: left;
+    width: 66.66666%;
+  }
+
+  .side {
+    float: left;
+    width: 33.33333%;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .main, .side {
+      width: 100%;
+    }
+  }
+
+  .content {
+    margin: 50px;
+    padding: 10px;
+    background-color: #00000066
+  }
