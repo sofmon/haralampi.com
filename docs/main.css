@@ -1,7 +1,7 @@
 html body {
   background-color: #000000;
   color: #AAAAAA;
-  font-family: "Roboto Mono", Courier, monospace;;
+  font-family: "Roboto Mono", Courier, monospace;
   overflow-x: hidden;
   font-weight: 100;
   font-size: 16px;
@@ -60,7 +60,7 @@ footer {
 }
 
 .content {
-  margin: 30px;
+  margin: 10px;
   padding: 10px;
   background-color: #00000066
 }
