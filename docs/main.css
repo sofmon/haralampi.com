@@ -1,10 +1,10 @@
 html body {
   background-color: #000000;
   color: #AAAAAA;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Roboto Mono", Courier, monospace;;
   overflow-x: hidden;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 a {
