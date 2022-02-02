@@ -1,154 +1,138 @@
-<!DOCTYPE html><html><head>
-  <title>haralampi</title>
-  <meta charset="utf-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <script defer="" src="/main.dart.js"></script>
-  <link rel="icon" href="/icon.png"/>
-  <link rel="stylesheet" href="/main.css"/>
-  <link href="https://fonts.googleapis.com/css?family=Roboto Mono" rel="stylesheet"/>
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Escape the color box</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/icon.png" />
+  <link rel="stylesheet" href="/main.css" />
+  <style>
+    section:nth-of-type(1) {
+      background-image: url('p1.svg');
+    }
+
+    section:nth-of-type(2) {
+      background-image: url('p2.svg');
+    }
+
+    section:nth-of-type(3) {
+      background-image: url('p3.svg');
+    }
+    
+    section:nth-of-type(4) {
+      background-image: url('p4.svg');
+    }
+
+    section:nth-of-type(5) {
+      background-image: url('p5.svg');
+    }
+
+    section:nth-of-type(6) {
+      background-image: url('p6.svg');
+    }
+
+  </style>
 </head>
 
 <body>
-  <header>
-    <p><a href="/">haralampi’s GiBbERiSh</a>
-</p>
-    <h1>escape the color box
-</h1>
-  </header>
-  <div class="container">
-    <div class="main">
-      <div class="content">
-        <div><h2>how it came to be</h2>
+  <section>
+    <div class="center">
+      <h1>Escape the color box</h1>
+      <h2>How it came to be</h2>
+      <p>Every organization strives to improve and empower its employees. One of the best ways is to turn to a
+        professionals in that sphere and ask them for help. This is what we did at Peaks when we start arranging a
+        personal development sessions.</p>
 
-<p>Every organization strives to improve and empower its employees. One of the best ways is to turn to a professionals in that sphere and ask them for help. This is what we did at Peaks when we start arranging a personal development sessions.</p>
+      <p>The first of those sessions had the objective to evaluate our personality and help us understand each other. As
+        part of this training we had to fill in 25 questions (multiple choice).</p>
 
-<p>The first of those sessions had the objective to evaluate our personality and help us understand each other. As part of this training we had to fill in 25 questions (multiple choice).</p>
+      <p>The questionnaire, and its result, was just part of the whole experience, but this is what I will focus on this
+        post.</p>
+  </section>
+  <section>
+    <div class="right">
+      <h2>The result</h2>
 
-<p>The questionnaire, and its result, was just part of the whole experience, but this is what I will focus on this post.</p>
+      <p>When I received the result, it gave a nice color diagram about me and two full pages of my persona's
+        description. </p>
+      <p>I asked some of my colleagues to read it and give me their honest opinion on how accurate the
+        result is. </p>
+      <p>To make it easy, I asked them to give me percentages of truthfulness, where 0% is “this is definitely
+        not you” and 100% is “yes, this is totally you”.</p>
+  </section>
+  <section>
+    <div class="right">
+      <p>So this was my score as per my colleagues:</p>
 
-<h2>the result</h2>
+      <ul>
+        <li>the big guy gave me 70% to 80% (I guess 75% !?)</li>
+        <li>the critic and person I work most with gave me 85%</li>
+        <li>the kind soul felt it was only 50%</li>
+        <li>the scientist calculated 80%</li>
+        <li>the perfectionist concluded it is 80%</li>
+        <li>the thinker was unconvinced and judged 60%</li>
+        <li>the money guy counted 80%</li>
+        <li>the person who probably knows me most as friend, gave me 90%</li>
+        <li>the person who knows me for longest, gave me 95%</li>
+      </ul>
 
-<p>When I received the result, it gave a nice color diagram about me and two full pages of my persona’s description. I asked some of my colleagues to read it and give me their honest opinion on how accurate the result is. To make it easy, I asked them to give me percentages of truthfulness, where 0% is “this is definitely not you” and 100% is “yes, this is totally you”.</p>
+      <p>So my final score is close to 80% (… ok 77.2222222%). The interesting part is that the more the person knew
+        me, the higher the score was. I would have given a really high score myself. Interesting? Not really, unless
+        you know what I did.</p>
+  </section>
+  <section>
+    <div class="left">
+      <h2>What I did?</h2>
 
-<p>So this was my score as per my colleagues:</p>
+      <p>I was resistant to the idea of a questionnaire telling something or even anything about me. The idea that I
+        will be put in a box, gave me the creeps.</p>
 
-<ul>
-<li>the big guy gave me 70% to 80% (I guess 75% !?)</li>
-<li>the critic and person I work most with gave me 85%</li>
-<li>the kind soul felt it was only 50%</li>
-<li>the scientist calculated 80%</li>
-<li>the perfectionist concluded it is 80%</li>
-<li>the thinker was unconvinced and judged 60%</li>
-<li>the money guy counted 80%</li>
-<li>the person who probably knows me most as friend, gave me 90%</li>
-<li>the person who knows me for longest, gave me 95%</li>
-</ul>
+      <p>Please don't get me wrong, I believe we need to do those personal development sessions. I believe we need
+        to work on our communication, we need to spend time trying to understand each other. The only part I am
+        disagreeing with, is a shining laminated book of my profile.</p>
 
-<p>So my final score is close to 80% (… ok 77.2222222%). The interesting part is that the more the person knew me, the higher the score was. I would have given a really high score myself. Interesting? Not really, unless you know what I did.</p>
+      <p>Fighting between my responsibility and myself, I finally decided to write the simplest possible
+        (pseudo-)random generator and used it to fill in all answers.</p>
 
-<h2>what I did?</h2>
+      <p>A week after the training, I shared what I did with my colleagues.</p>
 
-<p>I was resistant to the idea of a questionnaire telling something or even anything about me. The idea that I will be put in a box, gave me the creeps. </p>
+  </section>
+  <section>
+    <div class="center">
+      <h2>So what now?</h2>
 
-<p>Please don’t get me wrong, I believe we need to do those personal development sessions. I believe we need to work on our communication, we need to spend time trying to understand each other. The only part I am disagreeing with, is a shining laminated book of my profile.</p>
+      <p>For me, the experiment shows that the result will always be applicable for you, no matter from your input.
+        It is like a horoscope.</p>
 
-<p>Fighting between my responsibility and myself, I finally decided to write the simplest possible (pseudo-)random generator and used it to fill in all answers.</p>
+      <p>So how do I come to terms with this?</p>
 
-<p><img src="fill-in.jpg" alt="fill in" style="width:100%;max-width:700px"/></p>
+      <p>Maybe in our modern world, everything is for sell. Even personality. In that sense, the people who lead
+        this training are just good salesmen.</p>
 
-<p>A week after the training, I shared what I did with my colleagues.</p>
+      <p>Nevertheless more important for me is the realization that if one result fit us all, then it must mean we
+        are much more alike than we think. Maybe the perfect lesson in understanding each other is that we all share
+        same thoughts and aspirations.</p>
 
-<h2>so what now?</h2>
+  </section>
+  <section>
+    <div class="center">
+      <p>There is always the possibility, as pointed out by the scientist, that this is indeed my profile and the
+        result of this experiment is just a victim of circumstances. I might be indeed 80% random.</p>
 
-<p>For me, the experiment shows that the result will always be applicable for you, no matter from your input. It is like a horoscope.</p>
+      <p>I still don't believe the laminated book describes me, but I must also consider the limitation of my own
+        point of view.</p>
 
-<p>So how do I come to terms with this?</p>
+      <p>If the experiment is a failure, or even if it is a success, I let my colleagues down by not following the
+        rules, as they were asked to. Maybe I need to apologize … and in a way this blog post is exactly that.</p>
 
-<p>Maybe in our modern world, everything is for sell. Even personality. In that sense, the people who lead this training are just good salesmen.</p>
+      <p>My own concession is that even if my colleagues are disappointed by my actions, at least it will be because
+        of who I chose to be.</p>
 
-<p>Nevertheless more important for me is the realization that if one result fit us all, then it must mean we are much more alike than we think. Maybe the perfect lesson in understanding each other is that we all share same thoughts and aspirations.</p>
+  </section>
+<footer>
+  <a href="/">Haralampi's GiBbERiSh</a>
+</footer>
+</body>
 
-<p>There is always the possibility, as pointed out by the scientist, that this is indeed my profile and the result of this experiment is just a victim of circumstances. I might be indeed 80% random.</p>
-
-<p>I still don’t believe the laminated book describes me, but I must also consider the limitation of my own point of view.</p>
-
-<p>If the experiment is a failure, or even if it is a success, I let my colleagues down by not following the rules, as they were asked to. Maybe I need to apologize … and in a way this blog post is exactly that.</p>
-
-<p>My own concession is that even if my colleagues are disappointed by my actions, at least it will be because of who I chose to be.</p>
-
-<p>If you want to read my full profile overview, it is attached below.</p>
-</div>
-      </div><div class="content">
-        <div><h2>the full profile overview</h2>
-
-<h3>Personal Style</h3>
-
-<p>Haralampi systematically sets about achieving his scheduled goals on time in an efficient and effective manner. He seeks the attainment of personal success and status, and in this constant striving he may almost unwittingly compare himself with others in the race for success. He is less suited to work that ties him down to routine details. He finds it hard to concentrate for long periods on this kind of work, becoming bored and frustrated. His enthusiasm for a current project
-can be so compelling that he may be oblivious to any time and energy limitations, ignoring his own and others’ needs in the process. He feels constantly drawn to begin many different projects, yet by failing to complete many of them, he allows his energies, inspirations and insights to become dissipated.</p>
-
-<p>He has an urge for lifelong learning and can shake off depression by simply finding projects that fascinate him. He possesses a natural gift for presentation. Haralampi enthusiastically and co-operatively joins in activities and can juggle several activities at once. Haralampi is logical and analytical, an ingenious thinker and long-range planner, and good at anything that requires rapid reasoning. He is quick to spot opportunities and see how they can be turned to his advantage. Haralampi likes working where he can achieve immediate, visible and tangible results.</p>
-
-<p>Haralampi enjoys working with complex problems and is unceasing in his pursuit of mastering anything he finds intriguing. His imaginative perception gives him the energy to start lots of new projects, and keep a large number of balls in the air. In the event of unexpected or unanticipated failure, he may seek to turn it into something positive. He dislikes failure deeply. He will invariably have more to show for his efforts when he follows through to completion the necessary but tedious parts of a project. Although objective, he may be more interested in finding creative solutions to problems than in seeing those solutions become reality.</p>
-
-<p>If a job doesn’t offer him new challenges, boredom and poor performance may result. Both alert and outspoken, Haralampi can see the fatal flaw in a proposal or position but will often argue (and often enjoys arguing) on either side of an issue from a position of “devils advocate”. He is usually more effective when he takes time to consider how he really feels. He may ignore sensory data that might suggest danger and may knowingly take risks that others avoid. New challenges are more appealing to him than the status quo. He can become the ideal representative of whatever group of people he values. His self-esteem depends upon recognition for his performance and he may consciously seek to project a positive image.</p>
-
-<p>Haralampi is outgoing and direct, but as a participant, he can, if he is not careful, take control of the process. He usually has a theory that will explain everything. He may not necessarily prefer innovative solutions over established ones but is adept at seeing situations from an unusual perspective. Haralampi is an ingenious and original problem solver. Seen by many as a gifted and natural leader, he has an entrepreneurial rather than a functional management style. He needs work that makes use of his strongly creative drive.</p>
-
-<h3>Interacting with Others</h3>
-
-<p>Curious and alert, Haralampi prefers to understand rather than judge. He prefers to try to understand and relate to people’s views rather than be judgmental of them. Errors made by others may upset him and cause him to react loudly and vociferously. He likes to lead rather than manage, is normally fair but demanding and will not always be willing to accept change without first knowing why. He may need to work at taking the feelings of others into account and to learn to express his appreciation of others more readily.</p>
-
-<p>He needs to be aware of being too outspoken, over-talkative and overly logical with some colleagues. Sometimes seen as blunt and forthright, he may tread on other people’s toes without knowing it. He needs to make a special effort to remain open to the ideas and views of others, and avoid shutting other people down. He is outstanding at establishing and implementing orderly procedures, rules and regulations, and may show impatience with those who don’t carry out their designated tasks or work by the rules. He may become rebellious or sulk if people try to railroad him or interfere in his plans.</p>
-
-<p>Haralampi is alert to changing situations and will act quickly to get results, giving direction or instructions to others as he thinks is necessary. Unconventional in approach and enjoying motivating others to exceed what is accepted and expected, he likes to live freely, looking for variety every day. He may harbour a belief that no one really understands him or cares about him. He may become emotional and rather vulnerable in this state. Haralampi has a remarkable ability to get people to follow his lead. Haralampi enjoys involvement in many activities, with a variety of people. He is stimulated by doing the unexpected or the unusual.</p>
-
-<h3>Decision Making</h3>
-
-<p>With his enthusiasm and spontaneity, Haralampi brings a refreshing approach to decision making. Carefully choosing where he will focus his energy may help him avoid wasting his time and considerable talent. He is more interested in the future consequences of his actions than in the present condition of people or projects. As an extraverted, future oriented person, he may fear failure but knows how to turn it on its head into something positive, if the event occurs. Haralampi is self-reliant and is not frightened to take “the path of maximum resistance” in his efforts to produce the best results.</p>
-
-<p>In his attempts to please others he may make promises he cannot fulfil. He may constantly test the limits of a situation and he considers that most rules and regulations are there to be bent, if not broken. Haralampi’s natural curiosity for new ideas will bring new and fresh ways of thinking to the group. His desire to get things done quickly drives him to implement decisions as soon as they are made rather than first seeking to double check the facts before implementation. Always restless, he would rather ignore or put off dealing with troublesome details, by preferring to move on to something new or unusual.</p>
-
-<p>He enjoys the executive role and usually rises to challenges although he needs someone around with enough common sense to bring up overlooked facts and take care of important details. His direct, sometimes erratic approach tends to work against him being totally consistent on a day to day basis. To carry out his innovative ideas, Haralampi relies on his impulsive energy. He is a keen initiator who finds most problems stimulating. Work that uses his ideas to improve or start a project suits him, but once these ideas get off the ground he prefers someone else to carry on with the details. A born entrepreneur, he is alert to all the possibilities and is fascinated by new ideas. He shows strong initiative and operates through creative impulses.</p>
-</div>
-      </div>
-    </div>
-    <div class="side">
-      <div class="content">
-          <div><h2>about</h2>
-
-<p>I am Haralampi Staykov and I am a technologist.</p>
-
-<p>This website contains thoughts that are offerings to the one who wants to read them.</p>
-
-<p>I don’t claim to know better, nor I want to convince you into anything. The world is as it is and I wander in it the same way you do.</p>
-
-<p>Thoughts can light a path. Taking that path or choosing another, is how we walk our way.</p>
-
-<p>You can contact me on <a href="https://www.linkedin.com/in/haralampi/">LinkedIn</a> or send me an <a href="mailto:work@haralampi.com">email</a>.</p>
-</div>
-      </div><div class="content">
-          <div><h2>current engagements</h2>
-
-<h3>contributor to sofmon</h3>
-
-<p><a href="https://www.sofmon.com">www.sofmon.com</a></p>
-
-<p>Tools to be used by your own judgment and nobody else’s.</p>
-
-<h3>CTO @ Peaks</h3>
-
-<p><a href="https://www.peaks.nl">www.peaks.com</a></p>
-
-<p>Everyone can invest with Peaks. All you need is a bank account. Okay, and a little patience.</p>
-</div>
-      </div>
-    </div>
-  </div>
-  <footer>
-      <a href="https://www.sofmon.com/">
-        <img alt="sofmon.com" src="/sofmon.svg" width="200px"/>
-      </a>
-  </footer>
-
-
-</body></html>
+</html>
