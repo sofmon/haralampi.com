@@ -82,3 +82,38 @@ footer {
 footer a {
   color: #fff;
 }
+
+@media only screen and (max-width: 700px) {
+  body, html {
+    height: auto;
+    font-size:5vmin;
+  }
+  section div {
+    border-radius: 0px;
+    margin: auto;
+  }
+  section div.center{
+    position:relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  section div.left{
+    position:relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  section div.right{
+    position:relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
