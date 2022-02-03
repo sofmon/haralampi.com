@@ -88,6 +88,12 @@ footer a {
     height: auto;
     font-size:5vmin;
   }
+  section {
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
   section div {
     border-radius: 0px;
     margin: auto;
