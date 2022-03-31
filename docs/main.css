@@ -89,10 +89,7 @@ footer a {
     font-size:5vmin;
   }
   section {
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background: none !important;
   }
   section div {
     border-radius: 0px;
